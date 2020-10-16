@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li {
+  margin: 0;
+  padding: 0; }
+
+.acleardecoration {
+  text-decoration: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+body {
+  min-width: 1235px; }
+
+.bc {
+  width: 1235px;
+  height: 100%;
+  margin: 0 auto; }
+
+ul, ol {
+  list-style: none; }
+
+.fontsize12 {
+  font-size: 12px; }
+
+.fontcolorgrey {
+  color: #A19996; }
+
+.fontcolorred {
+  color: red !important; }
+
+.fontcolorblack {
+  color: black; }
+
+.fontcolorblue {
+  color: blue !important; }
+
+.fontcolororange {
+  color: orange !important; }
+
+.fontcolorgreen {
+  color: green !important; }
+
+#top {
+  height: 88px; }
+  #top .bc {
+    line-height: 88px; }
+    #top .bc img {
+      width: 190px;
+      height: 27px;
+      vertical-align: middle; }
+
+#main {
+  height: 600px;
+  background-color: #FF4577; }
+  #main .bc {
+    height: 600px;
+    position: relative; }
+
+.main_body {
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  padding-top: 52px;
+  text-align: center; }
+
+.qr_code {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  cursor: pointer;
+  top: 0px;
+  right: 0; }
+
+.main_body1 {
+  width: 300px;
+  height: 18px;
+  text-align: center; }
+  .main_body1 span {
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer; }
+
+.main_body2 {
+  width: 100%;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 20px;
+  text-align: center;
+  position: relative; }
+  .main_body2 input {
+    width: 210px;
+    height: 42px;
+    padding-left: 42px;
+    margin-top: 10px; }
+  .main_body2 .icon-diamonds {
+    font-size: 36px;
+    background-color: gray;
+    position: absolute;
+    top: 11px;
+    left: 49px; }
+  .main_body2 .icon-suo {
+    font-size: 36px;
+    background-color: gray;
+    position: absolute;
+    top: 66px;
+    left: 49px; }
+  .main_body2 input:hover {
+    border: 2px solid red; }
+
+.main_body21 {
+  width: 100%;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  display: none; }
+  .main_body21 input {
+    width: 210px;
+    height: 42px;
+    padding-left: 42px;
+    margin-top: 10px; }
+  .main_body21 .icon-shouji {
+    font-size: 36px;
+    background-color: gray;
+    position: absolute;
+    top: 11px;
+    left: 49px; }
+  .main_body21 select {
+    height: 42px;
+    width: 62px;
+    position: absolute;
+    top: 11px;
+    right: 50px; }
+  .main_body21 .icon-suo {
+    font-size: 36px;
+    background-color: gray;
+    position: absolute;
+    top: 66px;
+    left: 49px; }
+  .main_body21 button {
+    width: 62px;
+    height: 44px;
+    outline: none;
+    position: absolute;
+    top: 65px;
+    right: 48px; }
+  .main_body21 input:hover {
+    border: 2px solid red; }
+
+#alert {
+  width: 256px;
+  height: 60px;
+  text-align: center;
+  margin: 0 auto;
+  display: none; }
+
+#login_btn {
+  width: 256px;
+  height: 46px;
+  outline: none;
+  border: none;
+  background-color: red;
+  color: white; }
+
+.main_bodybottom {
+  margin: 20px auto;
+  width: 256px;
+  overflow: auto; }
+  .main_bodybottom a {
+    float: right;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+    color: gray; }
+
+#bottom {
+  height: 230px;
+  padding-top: 30px;
+  background-color: #000; }
+  #bottom a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px; }
+  #bottom .bottom_list2 {
+    margin-top: 15px; }
+  #bottom .bottom_list3 {
+    margin-top: 10px; }
+    #bottom .bottom_list3 span {
+      margin-left: 10px;
+      color: gray;
+      font-size: 12px; }
+  #bottom .bottom_list4 {
+    margin-top: 10px; }
+    #bottom .bottom_list4 span {
+      color: gray;
+      font-size: 12px;
+      margin-left: 10px; }
+    #bottom .bottom_list4 img {
+      margin-left: 20px; }
+  #bottom .bottom_list5, #bottom .bottom_list6 {
+    margin-top: 10px; }
+    #bottom .bottom_list5 span, #bottom .bottom_list6 span {
+      color: gray;
+      font-size: 12px;
+      margin-left: 10px; }
+  #bottom .bottom_list7 {
+    margin-top: 10px; }
+    #bottom .bottom_list7 span {
+      color: #ccc;
+      font-size: 12px;
+      margin-left: 10px; }
+  #bottom .bottom_list8 {
+    margin-top: 10px; }
+    #bottom .bottom_list8 img {
+      margin-left: 10px; }

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, li {
+  margin: 0;
+  padding: 0; }
+
+.acleardecoration {
+  text-decoration: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+body {
+  min-width: 1235px; }
+
+.bc {
+  width: 1235px;
+  height: 100%;
+  margin: 0 auto; }
+
+ul, ol {
+  list-style: none; }
+
+.fontsize12 {
+  font-size: 12px; }
+
+.fontcolorgrey {
+  color: #A19996; }
+
+.fontcolorred {
+  color: red !important; }
+
+.fontcolorblack {
+  color: black; }
+
+.fontcolorblue {
+  color: blue !important; }
+
+.fontcolororange {
+  color: orange !important; }
+
+.fontcolorgreen {
+  color: green !important; }
